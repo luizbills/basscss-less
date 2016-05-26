@@ -1,0 +1,31 @@
+// variables
+@breakpoint-xs: ~"(max-width: 40em)";
+@breakpoint-sm-md: ~"(min-width: 40em) and (max-width: 52em)";
+@breakpoint-md-lg: ~"(min-width: 52em) and (max-width: 64em)";
+@breakpoint-lg: ~"(min-width: 64em)";
+
+.hide {
+  position: absolute !important;
+  height: 1px;
+  width: 1px;
+  overflow: hidden;
+  clip: rect(1px, 1px, 1px, 1px);
+}
+
+@media @breakpoint-xs {
+  .xs-hide { display: none !important }
+}
+
+@media @breakpoint-sm-md {
+  .sm-hide { display: none !important }
+}
+
+@media @breakpoint-md-lg {
+  .md-hide { display: none !important }
+}
+
+@media @breakpoint-lg {
+  .lg-hide { display: none !important }
+}
+
+.display-none { display: none !important }
