@@ -1,5 +1,5 @@
 {
-  "name": "Basscss.less",
+  "name": "basscss-less",
   "version": "1.0.0",
   "description": "Less port of the Basscss",
   "scripts": {
