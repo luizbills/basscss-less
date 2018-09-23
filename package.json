@@ -1,6 +1,6 @@
 {
   "name": "basscss-less",
-  "version": "1.0.0",
+  "version": "1.1.0",
   "description": "Less port of the Basscss",
   "scripts": {
     "build": "lessc --verbose basscss.less > basscss.css"
@@ -8,6 +8,8 @@
   "author": "Luiz Bills",
   "license": "MIT",
   "devDependencies": {
-    "less": "2.7.1"
+  	"less": "^3.8.1"
+  },
+  "dependencies": {
   }
 }
